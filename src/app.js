@@ -12,7 +12,6 @@ const app = express();
 app.get('/prueba', function(req, res) {
  logger.info('Usuario autenticado');
     res.send('Perfil de Usuario');
-  res.send(respuesta);
  });
 
 
