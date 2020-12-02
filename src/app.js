@@ -4,7 +4,7 @@ const logger = require('./utils/logger');
 
 const app = express();
 
-app.route('/').get((req, res) => {
+app.route('/prueba').get((req, res) => {
     logger.info('Usuario autenticado');
     res.send('Perfil de Usuario');
 })
